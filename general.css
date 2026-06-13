@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    height: 1000px;
+    padding-top: 80px; 
+    padding-left: 225px;
+    background-color: rgb(240,240,240);
+
+}
+p{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}

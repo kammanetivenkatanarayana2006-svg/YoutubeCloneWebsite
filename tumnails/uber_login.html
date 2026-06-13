@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber Login Page</title>
+    <style>
+        .t1{ 
+              padding: 20px;
+              margin : 0;
+              border : 0.1px solid;
+              border-color: #ccc;
+              width : 600px;
+              height: 300px;
+              margin-left: 28vw;
+              margin-top: 5vw;
+              transition: box-shadow 0.15s;
+              box-shadow: 10px 10px 10px rgba(0,0,0,0.15);
+
+        }
+    
+        h1 {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        .input1[type="text"],.input2[type = "text"]{
+            margin: 15px;
+            padding-left: 10px;       
+            width: 300px;
+            height: 40px;
+            border-color: #ccc;
+            background-color: #fafafa;
+            border-style: solid;
+            border-width: 0.1px;
+            margin-left : 10vw;
+            border-radius: 3px;
+            font-weight: 520;
+            font-size: 14px;
+            display: block;
+            cursor:pointer;
+            transition: box-shadow 0.15s;
+        }
+        .input1[type="text"]:hover,.input2[type = "text"]:hover{
+            box-shadow: 10px 10px 10px rgba(0,0,0,0.15);
+        }
+    
+        .request-button{
+            margin-top: 1vw;
+            margin-left: 10vw;
+            background-color: rgb(45, 45, 45);
+            color: whitesmoke;
+            font-size: 14px;
+            font-weight: 500;
+            width: 130px;
+            border-radius: 1px;
+            height: 39px;
+            cursor:pointer;
+        }
+        .request-button:hover{
+            background-color: black;
+        }
+        .request-button:active{
+            background-color: rgb(71, 71, 71);
+        }
+        .later-button{
+            margin-left: 1vw;
+            border-color: #ccc;
+            background-color: #fafafa;
+            border-style: solid;
+            border-width: 0.1px;
+            color: black;
+            font-size: 14px;
+            font-weight: 500;
+            width: 140px;
+            border-radius: 1px;
+            height: 40px;
+            cursor: pointer;
+            transition: box-shadow 0.15s;
+
+        }
+        .later-button:hover{
+            box-shadow: 10px 10px 10px rgba(0,0,0,0.15);
+
+        }
+    </style>
+</head>
+<body>
+    <div class = "t1">
+        <h1>Request a ride now</h1>
+        <input class = "input1" type = "text" placeholder="Enter pickup location"/>
+        <input class = "input2" type = "text" placeholder="Enter destination"/>
+        <button class = "request-button">Request now</button>
+        <button class = "later-button">Schedule for later</button>
+    </div>
+</body>
+</html>
